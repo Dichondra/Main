@@ -34,7 +34,7 @@ def Main(data):
 for i in range(1):
     x = str(i+1)
     lista = ["message_",x,".json"]
-    file_name = "".join(lista)
+n    file_name = "".join(lista)
     file = os.path.join("/home/franek/Desktop/big_files_github/Asiula",file_name)
     f = open(file)
     data = json.load(f)
